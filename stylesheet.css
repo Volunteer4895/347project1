@@ -21,3 +21,28 @@
     width:35vh;
 
 }
+
+.page {
+
+    margin-top: 50px;
+    height: 100vp;
+    justify-content: center;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color:lightsteelblue;
+
+
+}
+
+.container {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: center;
+
+  }
