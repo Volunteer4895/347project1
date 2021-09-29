@@ -1,0 +1,23 @@
+.header {
+    
+    position:sticky;
+    display:flex;
+    background-color: beige;
+    justify-content:space-evenly;
+    height:10vh;
+    width:auto;
+    vertical-align: middle;
+    align-items: center;
+
+}
+
+
+form {
+
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    width:35vh;
+
+}
