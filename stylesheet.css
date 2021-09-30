@@ -27,10 +27,8 @@
     margin-top: 50px;
     height: 100vp;
     justify-content: center;
-    background-color: lightgoldenrodyellow;
     text-align: center;
     flex-wrap: wrap;
-    background-color:lightsteelblue;
 
 
 }
@@ -41,8 +39,54 @@
     flex-wrap: wrap;
     background-color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     /* justify-content: space-between; */
-    justify-content: center;
+    justify-content:center;
+
+  }
+
+  .child {
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    text-align: left; 
+    /* align-items: center; */
+    /* justify-content: center; */
+    -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      width: "150px";
+      background-color: antiquewhite;
+      margin:35px;
+      border-style:double;
+      border-color:lightslategrey;
+      align-items: flex-start;
+  }
+  
+  .child2 {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+     align-items: center; 
+     justify-content: center; 
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: "150px";
+    background-color: antiquewhite;
+    margin:35px;
+    border-style:double;
+    border-color:lightslategrey;
+    /* align-items: flex-start; */
+  }
+
+  p{
+
+    font-size:large;
+  }
+
+  h{
+
+    font-size:x-large;
 
   }
